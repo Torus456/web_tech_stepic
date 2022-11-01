@@ -1,0 +1,47 @@
+# Common
+*~
+*.log
+*.xls
+*.xlsx
+*.code-workspace
+db.sqlite3
+.DS_Store
+
+# Python
+__pycache__
+*.pyc
+*/.ipynb_checkpoints/*.ipynb
+venv/
+.venv/
+.env/
+
+.env.local
+.env.*.local
+
+*.local.*
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache/
+
+# Logs
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Front
+base-vue.html
+node_modules
+dist
+dist-ssr
+coverage
+
+/cypress/videos/
+/cypress/screenshots/
+
+
+# Back
+staticfiles/
